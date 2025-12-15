@@ -11,13 +11,13 @@
                     <label class="form-label">Nome do evento:</label>
                     <input type="text" class="form-control" name="evento">
                 </div>
-                <!-- idade minima do evento -->
+                <!-- idade mínima do evento -->
                 <div class="col-12 col-md-9 col-lg-2 mb-3">
-                    <label class="form-label">Idade mínima do evento:</label>
+                    <label class="form-label">Idade mínima:</label>
                     <input type="number" class="form-control" name="idade" min="0">
                 </div>
                 <!-- data do evento -->
-                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                <div class="col-12 col-md-3 col-lg-3 mb-3">
                     <label class="form-label">Data do evento:</label>
                     <input type="date" class="form-control" name="data">
                 </div>
@@ -26,7 +26,7 @@
                     <label class="form-label">Hora do evento:</label>
                     <input type="time" class="form-control" name="hora">
                 </div>
-                <!--  cep -->
+                <!-- cep -->
                 <div class="col-12 col-md-4 col-lg-3 mb-3">
                     <label class="form-label">CEP:</label>
                     <input type="text" class="form-control" name="cep">
@@ -34,13 +34,13 @@
                 <!-- uf -->
                 <div class="col-12 col-md-3 col-lg-2 mb-3">
                     <label class="form-label">UF:</label>
-                    <select class="form-select" name="'uf">
+                    <select class="form-control" name="uf">
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
                         <option value="AP">Amapá</option>
                         <option value="AM">Amazonas</option>
                         <option value="BA">Bahia</option>
-                        <option value="CE">Ceará</option
+                        <option value="CE">Ceará</option>
                         <option value="DF">Distrito Federal</option>
                         <option value="ES">Espírito Santo</option>
                         <option value="GO">Goiás</option>
@@ -63,6 +63,20 @@
                         <option value="SE">Sergipe</option>
                         <option value="TO">Tocantins</option>
                     </select>
+                </div>
+                <!-- cidade -->
+                <div class="col-12 col-md-4 col-lg-6 mb-3">
+                    <label class="form-label">Cidade:</label>
+                    <input type="text" class="form-control" name="cidade">
+                </div>
+                <!-- local -->
+                <div class="col-12 mb-3">
+                    <label class="form-label">Local:</label>
+                    <input type="text" class="form-control" name="local">
+                </div>
+                <!-- botão -->
+                <div class="d-flex justify-content-center mt-5 mb-5">
+                    <button type="submit" class="btn btn-primary">Cadastrar evento</button>
                 </div>
             </div>
         </form>
